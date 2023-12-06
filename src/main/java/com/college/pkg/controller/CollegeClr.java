@@ -25,7 +25,7 @@ public class CollegeClr {
 	@GetMapping("/demo")
 	public String Demo() {
 		return "Hi ";
-	}
+	} 
 	
 	@PostMapping("/resister")
 	public CollegeEntity stdValidation(@RequestBody CollegeEntity s) {
